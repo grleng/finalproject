@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgba(233, 80, 174, 0.788);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 200px; /* only for demonstration, should be removed */
+  background: rgb(243, 203, 203);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h2>MOTHER'S FACTORS TO LOW BIRTH WEIGHT (LBW) BABY</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bmi.html">FACTOR: BMI</a></li>
+        <li><a href="mage.html">FACTOR: Mother's Age</a></li>
+        <li><a href="mrace.html">FACTOR: Mother's Race</a></li>
+        <li><a href="previouslivebirths.html">Previous Live Births</a></li>
+        <li><a href="office.html">Office Visits</a></li>
+        <li><a href="projectchallenges.html">Challenges & Methodology</a></li>
+    </ul>
+  </nav>
+  <h2 align="center">FACTOR: <strong>Age</strong></h2>
+
+    <center>
+    <img src="youngoldmoms.png" alt="youngoldmoms" class="center" width="560" hieght="660">
+ </center>
+</section>
+<p><strong>Advanced Maternal Age and the Risk of Low Birth Weight</strong></p>
+<p>Pregnancy at advanced maternal age has become more common in both developed and developing countries over the last decades [1]. Advanced maternal age is commonly considered to be 35 years or older, whereas very advanced maternal age is defined as older than 40 or 45 years [2, 3]. Widespread use of family planning measures, postponing pregnancy because of career goals, and advances in assisted reproductive techniques contribute to this increment [4]. Accordingly, concerns about adverse effects of advanced maternal age on perinatal outcomes have also increased steadily over the past years. The association between adverse perinatal outcomes and advanced maternal age has been a matter of controversy in several studies. While some researchers have noted an increased rate of adverse pregnancy outcomes in women older than 35 years, others have failed to find any association between advanced maternal age and adverse perinatal outcomes [5, 6]. This discordance in conclusions could be attributed to the heterogeneity of study populations, differences in the definition of pregnancy outcomes, and failure to adjust for potential confounders. Therefore, we aimed to investigate the impact of advanced maternal age on perinatal and neonatal outcomes of nulliparous singleton pregnancies in this study. We hypothesized that gestational diabetes mellitus (GDM), gestational hypertension and increased cesarean delivery rate would be associated with advanced maternal age. </p>
+
+<img src="C:\Users\17203\Desktop\DU-DEN-DATA-PT-08-2019-U-C\24-Final-Project\momsage.png" alt="BMIchart" hspace="100" width="600" hieght="700">
+
+</body>
+</html>

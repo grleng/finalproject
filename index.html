@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgba(233, 80, 174, 0.788);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 200px; /* only for demonstration, should be removed */
+  background: rgb(243, 203, 203);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 200px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>MOTHER'S FACTORS TO LOW BIRTH WEIGHT (LBW) BABY</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="bmi.html">FACTOR: BMI</a></li>
+      <li><a href="mage.html">FACTOR: Mother's Age</a></li>
+      <li><a href="mrace.html">FACTOR: Mother's Race</a></li>
+      <li><a href="previouslivebirths.html">Previous Live Births</a></li>
+      <li><a href="office.html">Office Visits</a></li>
+      <li><a href="projectchallenges.html">Challenges & Methodology</a></li>
+    </ul>
+  </nav>
+  <h2 align="center"><strong>Can we predict if an infant will be born with low birthweight?</strong></h2>
+
+  <center>
+    <img src="C:\Users\17203\Desktop\DU-DEN-DATA-PT-08-2019-U-C\24-Final-Project\homepage.png" alt="homepage" hspace="100" width="300" hieght="400">
+</center>
+</section>
+
+<p>Low birth weigth of an infant can have serious helth health effects on it in its later life. World Health Organization defines Low Birth Weight (LBW) as a birth weight of an infant of 2,499 g or less, regardless of gestational age. The birth weight of a baby is notable because very LBW babies are 100 times more likely to die compared to normal birth weight babies. A mother's aged, BMI, prior live births, and race; along with her tobacco and alcohol habits, air pollution, stress, etc. have been identified as factors that causes for LBW. This final project attempts to predict the weight of a baby, based on various factors recorded after the birth of an infant.</p>
+
+</body>
+</html>
